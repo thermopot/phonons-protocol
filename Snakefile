@@ -1,4 +1,4 @@
-rule script:
+rule phonons:
     input:
         "input.json"
     output:
