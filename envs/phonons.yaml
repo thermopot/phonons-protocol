@@ -1,10 +1,7 @@
 channels:
 - conda-forge
 dependencies:
-- python
-- lammps
-- jupyter
-- nbconvert 
-- pyiron 
-- jinja2 
-- papermill
+- python=3.7.3
+- lammps=2019.06.05
+- pyiron=0.2.5
+- papermill=1.1.0
