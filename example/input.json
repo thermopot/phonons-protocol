@@ -1,7 +1,3 @@
-# phonons-protocol
-
-Create an `input.json` file with the information regarding the potential: 
-```
 {
     "config": [
         "pair_style eam/alloy \n", 
@@ -14,10 +10,3 @@ Create an `input.json` file with the information regarding the potential:
     "path": "./example", 
     "element": "Fe"
 }
-```
-The file is also available in the `example` directory. 
-
-Execute the protocol using snakemake: 
-```
-snakemake --use-conda
-```
