@@ -4,4 +4,5 @@ dependencies:
 - python=3.7.3
 - lammps=2019.06.05
 - pyiron=0.2.5
+- jupyter=1.0.0
 - papermill=1.1.0
