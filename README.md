@@ -1,4 +1,5 @@
 # phonons-protocol
+[![Build Status](https://travis-ci.org/thermopot/phonons-protocol.svg?branch=master)](https://travis-ci.org/thermopot/phonons-protocol)
 
 Create an `input.json` file with the information regarding the potential: 
 ```
