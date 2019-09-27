@@ -4,7 +4,7 @@ matrix:
       name: test_linux
       os: linux
       language: python
-      env: MINICONDA="https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh" PYTHONVER="3.6"
+      env: MINICONDA="https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh" PYTHONVER="3.7"
       install:
         - export PATH="$HOME/miniconda/bin:$PATH"
         - wget ${MINICONDA} -O miniconda.sh
@@ -12,7 +12,7 @@ matrix:
         - conda info -a
         - conda config --set always_yes yes --set changeps1 no
         - conda update -q conda
-        - conda install -c bioconda python=${PYTHONVER} snakemake
+        - conda install -c conda-forge -c bioconda python=${PYTHONVER} snakemake
       script:
         - cp example/input.json input.json
         - snakemake --use-conda
