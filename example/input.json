@@ -4,9 +4,6 @@
         "pair_coeff * * Fe-C-Bec07.eam Fe C\n"
     ], 
     "filename": "./example/Fe-C-Bec07.eam", 
-    "model": "EAM", 
-    "name": "Fe_C_Becquart_eam", 
     "species": ["Fe", "C"], 
-    "path": "./example", 
     "element": "Fe"
 }
